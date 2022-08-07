@@ -1,0 +1,9 @@
+Dataset/
+Model/__pycache__/
+Model/Test_Results/
+Model/Trained/
+model_test_job.sh
+model_train_job.sh
+stop_model_train_job.sh
+stop_model_test_job.sh
+jobids.list
