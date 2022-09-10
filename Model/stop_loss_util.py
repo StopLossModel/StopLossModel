@@ -63,6 +63,7 @@ def calculate_alpha(close_df):
     print("alpha:", alpha)
     return alpha
 
+# creating the target dataset (Y data) for stop price prediction component
 def add_stop_price(df, trade_window=10, alpha=0.1):
     print("Adding stop price")
     # alpha = calculate_alpha(df["Close"])
