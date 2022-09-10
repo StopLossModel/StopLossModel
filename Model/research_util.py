@@ -10,6 +10,7 @@ def mean_directional_accuracy(y_true, y_pred):
     result = (K.sign(y_true[1:] - y_true[:-1]) == K.sign(y_pred[1:] - y_pred[:-1]))
     return K.mean(result)
 
+# custom loss function for trend detection component
 def custom_loss(y_true, y_pred):
     y_true = tf.reshape(y_true, (-1, y_pred.shape[1]))
     # next day prices
