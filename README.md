@@ -20,11 +20,11 @@ Similar to RSI, we set two (2) limits to perform discretization on CCI as well. 
 
 ## Price Prediction Component
 
-![Price Prediction Component]("Diagrams/priceComp2.jpg")
+![Price Prediction Component](Diagrams/priceComp2.jpg)
 
 ## Trend Detection Component
 
-![Trend Detection Component]("Diagrams/TrendLayer.png")
+![Trend Detection Component](Diagrams/TrendLayer.png)
 
 
 # Requirements
